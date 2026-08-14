@@ -1,0 +1,30 @@
+/- the scenario -/ 
+(100 respondents, 20 questions, 3 timepoints)
+
+1. a college has 100 students
+2. each student answers, 20 questions in three different examinations:
+  IA1
+  IA2
+  External examination
+  
+/- you ask them at three different times: -/
+1. IA1 (before the workshop)
+2. IA2 (immediately after the workshop)
+3. external exam (final exam)
+
+so every student answers the same 20 questions three timestamp
+
+so our goal is to
+
+the key idea
+an array is useful whenever you have the same type of measurements collected acriss multiple dimensions. in this example-
+dimension 1 : who? 100 respondents (students)
+dimension 2 : what? 20 survey questions
+dimension 3: when? pre-test, post-test, follow-up
+
+why use any array instead of three separate matrices?
+usingf a single 3d array keeps related data together, making analysis easier. for example:
+
+VISUAL REPRESENTATION - 
+
+  
